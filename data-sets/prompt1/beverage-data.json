@@ -1,0 +1,42 @@
+[
+    {
+        "beverage-name": "Coca-Cola",
+        "brand": "Coca-Cola",
+        "beverage-type": "soda",
+        "contains-sugar": true,
+        "carbonated": true,
+        "container": "can"
+    },
+    {
+        "beverage-name": "Natrual Spring Water",
+        "brand": "Poland Spring",
+        "beverage-type": "water",
+        "contains-sugar": false,
+        "carbonated": false,
+        "container": "bottle"
+    },
+    {
+        "beverage-name": "Cold Brew",
+        "brand": "Starbucks",
+        "beverage-type": "coffee",
+        "contains-sugar": false,
+        "carbonated": false,
+        "container": "cup"
+    },
+    {
+        "beverage-name": "Aranciata",
+        "brand": "San Pellegrino",
+        "beverage-type": "soda",
+        "contains-sugar": true,
+        "carbonated": true,
+        "container": "can"
+    },
+    {
+        "beverage-name": "Naturally Essences Sparkling Water",
+        "brand": "La Croix",
+        "beverage-type": "sparkling water",
+        "contains-sugar": false,
+        "carbonated": true,
+        "container": "can"
+    }
+]

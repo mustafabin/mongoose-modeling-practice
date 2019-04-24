@@ -1,0 +1,78 @@
+// HINT: You may need more than one model for this data set!
+
+[
+    {
+        "universe": "Marvel",
+        "movies": [
+            {
+                "title": "Iron Man",
+                "year": 2008,
+                "characters": [
+                    {
+                        "name": "Iron Man",
+                        "alias": true,
+                        "actor": "Robert Downey, Jr."
+                    },
+                    {
+                        "name": "Obadiah Stane",
+                        "alias": false,
+                        "actor": "Jeff Bridges"
+                    }
+                ]
+            },
+            {
+                "title": "Captain Marvel",
+                "year": 2019,
+                "characters": [
+                    {
+                        "name": "Captail Marvel",
+                        "alias": true,
+                        "actor": "Brie Larson"
+                    },
+                    {
+                        "name": "Nick Fury",
+                        "alias": false,
+                        "actor": "Samuel L. Jackson"
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "universe": "DC",
+        "movies": [
+            {
+                "title": "Batman & Robin",
+                "year": 1997,
+                "characters": [
+                    {
+                        "name": "Batman",
+                        "alias": true,
+                        "actor": "George Clooney"
+                    },
+                    {
+                        "name": "Robin",
+                        "alias": true,
+                        "actor": "Chris O'Donnell"
+                    }
+                ]
+            },
+            {
+                "title": "Superman",
+                "year": 1978,
+                "characters": [
+                    {
+                        "name": "Superman",
+                        "alias": true,
+                        "actor": "Christopher Reeve"
+                    },
+                    {
+                        "name": "Lex Luthor",
+                        "alias": false,
+                        "actor": "Gene Hackman"
+                    }
+                ]
+            }
+        ]
+    }
+]

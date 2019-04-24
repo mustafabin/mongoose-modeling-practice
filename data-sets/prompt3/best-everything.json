@@ -1,0 +1,62 @@
+[
+    {
+        "year": 2018,
+        "sports": {
+            "superBowl": "Philadelphia Eagles",
+            "worldSeries": "Boston Red Sox",
+            "stanleyCup": "Washington Capitals",
+            "NBAchampionship": "Golden State Warriors"
+        },
+        "music": {
+            "bestSong": {
+                "title": "This is America",
+                "artist": "Childish Gambino"
+            }
+        },
+        "movies": {
+            "bestMovie": "The Shape of Water",
+            "bestActress": "Frances McDormand",
+            "bestActor": "Gary Oldman"
+        }
+    },
+    {
+        "year": 2017,
+        "sports": {
+            "superBowl": "New England Patriots",
+            "worldSeries": "Houston Astros",
+            "stanleyCup": "Pittsburgh Penguins",
+            "NBAchampionship": "Golden State Warriors"
+        },
+        "music": {
+            "bestSong": {
+                "title": "That's What I Like",
+                "artist": "Bruno Mars"
+            }
+        },
+        "movies": {
+            "bestMovie": "Moonlight",
+            "bestActress": "Emma Stone",
+            "bestActor": "Casey Affleck"
+        }
+    },
+    {
+        "year": 2016,
+        "sports": {
+            "superBowl": "Denver Broncos",
+            "worldSeries": "Chicago Cubs",
+            "stanleyCup": "Pittsburgh Penguins",
+            "NBAchampionship": "Cleveland Cavaliers"
+        },
+        "music": {
+            "bestSong": {
+                "title": "Hello",
+                "artist": "Adele"
+            }
+        },
+        "movies": {
+            "bestMovie": "Spotlight",
+            "bestActress": "Brie Larson",
+            "bestActor": "Leonardo DiCaptrio"
+        }
+    }
+]
