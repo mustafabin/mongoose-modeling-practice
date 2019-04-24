@@ -34,6 +34,35 @@ In the `data-sets` directory, you'll find a few subdirectories. Each of these su
 - Appropriate data types for each property
 - Export schema using `module.exports`
 
+For example, for the data set:
+```js
+[
+    {
+        "name": "Erin",
+        "hometown": "Villanova, PA",
+        "years-in-dc": 8,
+        "loves-to-code": true
+    }
+]
+```
+
+Your model file (named `Person.js` or something else semantic, should look like this:
+
+```js
+const Schema = mongoose.Schema
+
+const Person = new Schema({
+    name: String,
+    hometown: String,
+    years-in-dc: Number,
+    loves-to-code: Boolean
+})
+
+module.exports = mongoose.model('Person', Peron)
+```
+
+For the examples that require next schemas (like arrays of objects), use the Author and Cookbook solution that we learning in class as a reference!
+
 ## Plagiarism
 
 Take a moment to refamiliarize yourself with the [Plagiarism policy](https://git.generalassemb.ly/DC-WDI/Administrative/blob/master/plagiarism.md). Plagiarized work will not be accepted.
