@@ -54,14 +54,14 @@ const Schema = mongoose.Schema
 const Person = new Schema({
     name: String,
     hometown: String,
-    years-in-dc: Number,
-    loves-to-code: Boolean
+    "years-in-dc": Number,
+    "loves-to-code": Boolean
 })
 
 module.exports = mongoose.model('Person', Peron)
 ```
 
-For the examples that require next schemas (like arrays of objects), use the Author and Cookbook solution that we learning in class as a reference!
+For the examples that require parent and child schemas, use the Author and Cookbook solution that we learning in class as a reference! Hint: An array of objects will be a clue!
 
 ## Plagiarism
 
