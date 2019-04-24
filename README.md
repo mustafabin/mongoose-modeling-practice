@@ -34,10 +34,6 @@ In the `data-sets` directory, you'll find a few subdirectories. Each of these su
 - Appropriate data types for each property
 - Export schema using `module.exports`
 
-## Bonus
-
-
-
 ## Plagiarism
 
 Take a moment to refamiliarize yourself with the [Plagiarism policy](https://git.generalassemb.ly/DC-WDI/Administrative/blob/master/plagiarism.md). Plagiarized work will not be accepted.
