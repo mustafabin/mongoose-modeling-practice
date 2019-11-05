@@ -70,6 +70,18 @@ For the examples that require parent and child schemas, use the Author and
 Cookbook solution that we learning in class as a reference! Hint: An array of
 objects will be a clue!
 
+## Testing Your Work
+
+How can you tell if your model works?
+
+Create an `index.js` file (or something) inside the folders for each prompt.
+Inside that file, import your model and import the seed data. Insert the seed
+data into your database with your model. Then check it in the MongoDB shell.
+
+If the data you see in MongoDB matches the data in the json file, then your
+model is working! If you get an error or some data is missing, then you have
+some work to do still.
+
 ## Plagiarism
 
 Take a moment to refamiliarize yourself with the
