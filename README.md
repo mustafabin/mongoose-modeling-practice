@@ -34,7 +34,7 @@ create a file representing each model that includes:
 - A variable `Schema` set equal to `mongoose.Schema`
 - Model defined using the `Schema` method
 - Properties that correlate with the data set
-- Appropriate data types for each property
+- Appropriate data types and validation for each property
 - Export schema using `module.exports`
 
 For example, for the data set:
@@ -42,10 +42,10 @@ For example, for the data set:
 ```js
 [
   {
-    name: "Erin",
-    hometown: "Villanova, PA",
-    "years-in-dc": 8,
-    "loves-to-code": true
+    "name": "Erin",
+    "hometown": "Villanova, PA",
+    "yearsInDC": 8,
+    "lovesToCode": true
   }
 ];
 ```
@@ -59,8 +59,8 @@ const Schema = mongoose.Schema;
 const Person = new Schema({
   name: String,
   hometown: String,
-  "years-in-dc": Number,
-  "loves-to-code": Boolean
+  yearsInDC: Number,
+  lovesToCode: Boolean
 });
 
 module.exports = mongoose.model("Person", Person);
