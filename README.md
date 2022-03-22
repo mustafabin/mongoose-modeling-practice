@@ -54,16 +54,14 @@ Your model file (named `Person.js` or something else semantic, should look like
 this:
 
 ```js
-const Schema = mongoose.Schema;
-
-const Person = new Schema({
+const Person = new mongoose.Schema({
   name: String,
   hometown: String,
   yearsInDC: Number,
   lovesToCode: Boolean
-});
+})
 
-module.exports = mongoose.model("Person", Person);
+module.exports = mongoose.model("Person", Person)
 ```
 
 For the examples that require parent and child schemas, use the Author and
