@@ -1,35 +1,32 @@
-// HINT: The dates here are not strings! Add the Mongoose data type to 
-// the Schema that automatically populates a date at the time the data is created.
-
 [
-    {
-        "to": "Ron",
-        "from": "Leslie",
-        "message": "Why would any eat anything besides breakfast food?",
-        "sentOn": "Apr 24, 2019"
-    },
-    {
-        "to": "Donna",
-        "from": "Tom",
-        "message": "Treat Yoself!",
-        "sentOn": "Apr 24, 2019"
-    },
-    {
-        "to": "Leslie",
-        "from": "Ann",
-        "message": "You are a rainbow infused space unicorn.",
-        "sentOn": "Apr 24, 2019"
-    },
-    {
-        "to": "Andy",
-        "from": "April",
-        "message": "You're so good at reminding me where pizza is.",
-        "sentOn": "Apr 24, 2019"
-    },
-    {
-        "to": "Chris",
-        "from": "Ben",
-        "message": "I am 100% certain that I am 0% sure of what I am going to do.",
-        "sentOn": "Apr 24, 2019"
-    }
+  {
+    "to": "Ron",
+    "from": "Leslie",
+    "message": "Why would any eat anything besides breakfast food?",
+    "sentOn": "Apr 24, 2019"
+  },
+  {
+    "to": "Donna",
+    "from": "Tom",
+    "message": "Treat Yoself!",
+    "sentOn": "Apr 24, 2019"
+  },
+  {
+    "to": "Leslie",
+    "from": "Ann",
+    "message": "You are a rainbow infused space unicorn.",
+    "sentOn": "Apr 24, 2019"
+  },
+  {
+    "to": "Andy",
+    "from": "April",
+    "message": "You're so good at reminding me where pizza is.",
+    "sentOn": "Apr 24, 2019"
+  },
+  {
+    "to": "Chris",
+    "from": "Ben",
+    "message": "I am 100% certain that I am 0% sure of what I am going to do.",
+    "sentOn": "Apr 24, 2019"
+  }
 ]
